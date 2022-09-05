@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<title>CRDT 1</title>
+<style>
+body {
+    font-family: sans-serif;
+    font-size: 200%;
+    background-color: rgb(15, 23, 31);
+    color: #eee;
+}
+h1,h2,h3 {
+  padding-left: 1em;
+  color: rgb(241, 91, 181)
+}
+h4 {
+  color: rgb(155, 93, 229);
+}
+button {
+    font-size: 20px;
+}
+#value {
+  font-family: monospace;
+  color: rgb(254, 228, 64);
+}
+</style>
+<h4>CRDT example 2:</h4>
+<h1>MAX</h1>
+
+<div>
+  <span id="value">Loading...</span>
+  <button id="decrement">---</button>
+  <button id="increment">+++</button>
+</div>
+<script type="module" src="client.js"></script>

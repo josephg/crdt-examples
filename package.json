@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "dependencies": {
+    "polka": "^0.5.2",
+    "sirv": "^2.0.2",
+    "ws": "^8.8.1"
+  }
+}
