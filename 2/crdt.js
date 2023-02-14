@@ -1,6 +1,6 @@
 export const create = () => ({
   seq: 0,
-  value: 0
+  value: "(empty)"
 })
 
 export const set = (state, newValue) => ({
